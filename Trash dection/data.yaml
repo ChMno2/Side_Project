@@ -1,0 +1,5 @@
+train: C:/Users/chanmuen/Downloads/trash.v2i.yolov8/train/images
+val: C:/Users/chanmuen/Downloads/trash.v2i.yolov8/valid/images
+nc: 3
+names: ['car', 'license', 'trash-RlAJ']
+
