@@ -1,0 +1,20 @@
+在過去中模型訓練出的結果和訓練模型的前處理是對應的
+但若要新加一個物件就必須要retrain模型一遍
+-->想要一個模型打遍天下無敵手
+
+Abstract:
+YOLO非常依賴於使用者所給的標註信息，為了解決此類侷限問題，
+將視覺[視覺]及[文本]同時做學習->提出(RepVL-PAN)這個算法，
+提供visual and linguistic一個交互的信息並集成再一起，
+
+3.Method
+在傳統的物件偵測演算法中，需要給模型足夠的標註信息，
+包含了Omage={BI,Ci}i=1~n Bi=Bounding box ,Ci=category label
+在新的算法中學會讓文本學會有用的訊息，因此將Ci改成了Ti
+Ex:Ti={這是一隻狗}
+Omage={BI,Ci}i=1~n Bi=Bounding box,Ti為一文本(名詞佳)
+根據輸入內容來輸出predicted boxes and embedding
+{Bk},{Ek} embedding為一特徵向量
+Ex:當我們框出一個人，提供的信息為Bi+文本，透過文本和Ek做特徵向量，即可知道為何類別
+
+*zero-shot in Object
