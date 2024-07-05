@@ -57,7 +57,8 @@
 
 5. **在表單裡建立選單供使用者點選**
    - 在 Google 表單中設置選單選項，讓使用者可以輕鬆地選擇他們想要的飲料。
-![Line Notify接收飲料訂單](https://github.com/ChMno2/Side_Project/blob/main/%E9%A3%B2%E6%96%99%E8%A8%82%E5%96%AE%E7%B3%BB%E7%B5%B1/Telegram%20and%20line%E9%A1%AF%E7%A4%BA%E7%95%AB%E9%9D%A2.png)
+##成果展示
+![Line Notify接收飲料訂單](/ChMno2/Side_Project/blob/main/%E9%A3%B2%E6%96%99%E8%A8%82%E5%96%AE%E7%B3%BB%E7%B5%B1/Telegram%20and%20line%E9%A1%AF%E7%A4%BA%E7%95%AB%E9%9D%A2.png)
 
 ## 結論
 
